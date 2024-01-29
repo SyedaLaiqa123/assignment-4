@@ -1,0 +1,46 @@
+body{
+    font-size: medium;
+}
+
+label{
+    font-size: 30px;
+    color: blue;
+}
+
+
+.bott,input{
+    width: 700px;
+    height: 50px;
+}
+
+div{
+    display: block;
+} 
+
+.CNIC{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 2px;
+    width: max-content;
+}
+
+.left{
+    position: absolute;
+    left: 800px;
+    top: 45px;
+}
+.botter,input{
+    width: 1500px;
+    height: 50px;
+}
+.end{
+    font-size: 25px;
+}
+.submit button{
+    color: blue;
+}
+nav{
+    background-color: green;
+    color: white;
+    grid-area: navbar;
+}
